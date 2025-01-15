@@ -22,7 +22,7 @@ const CenteredText = styled.p`
 
 function App() {
   return (
-    <Router basename="/teste-frontend-target">
+    <Router basename="">
       <Header />
       <CenteredText>Navegue pelas páginas e visualize todo conteúdo!</CenteredText>
       <Routes>
