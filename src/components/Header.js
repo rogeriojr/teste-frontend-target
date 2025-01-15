@@ -26,7 +26,6 @@ const Header = () => {
   return (
     <Navbar>
       <h1>Teste Técnico</h1>
-      <p>Navegue pelas páginas e visualize todo conteúdo!</p>
       <NavLinks>
         <Link to="/">Home</Link>
         <Link to="/question1">Questão 1</Link>
