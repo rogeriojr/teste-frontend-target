@@ -126,8 +126,7 @@ src/
 ---
 
 ## Link de visualização do projeto
-### Tela Inicial
-
+https://rogeriojr.github.io/teste-frontend-target
 
 ---
 
@@ -141,7 +140,7 @@ src/
 
 ## Contato
 Para dúvidas ou sugestões:
-- **E-mail**: seuemail@exemplo.com
-- **GitHub**: [seuusuario](https://github.com/seuusuario)
+- **E-mail**: rogeriojr1100@gmail.com
+- **GitHub**: [rogeriojr](https://github.com/rogeriojr)
 
 **Desenvolvido com ❤️ para o teste técnico!**
