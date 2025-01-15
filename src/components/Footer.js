@@ -10,7 +10,7 @@ const FooterWrapper = styled.footer`
 `;
 
 const Footer = () => {
-  return <FooterWrapper>© 2025 - Teste Técnico - Rogério Jr</FooterWrapper>;
+  return <FooterWrapper>© 2025 - Teste Técnico - Rogério Jr Development</FooterWrapper>;
 };
 
 export default Footer;
