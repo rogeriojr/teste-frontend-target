@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import Card from "../components/Card";
 
 const Wrapper = styled.div`
@@ -28,7 +29,7 @@ const LinksWrapper = styled.div`
   gap: 1rem;
 `;
 
-const StyledLink = styled.a`
+const StyledLink = styled(Link)`
   display: inline-block;
   padding: 1rem 2rem;
   background-color: #6200ea;
@@ -54,11 +55,11 @@ const Home = () => {
       </Description>
       <Card title="Navegue pelos Testes">
         <LinksWrapper>
-          <StyledLink href="/question1">Questão 1</StyledLink>
-          <StyledLink href="/question2">Questão 2</StyledLink>
-          <StyledLink href="/question3">Questão 3</StyledLink>
-          <StyledLink href="/question4">Questão 4</StyledLink>
-          <StyledLink href="/question5">Questão 5</StyledLink>
+          <StyledLink to="/question1">Questão 1</StyledLink>
+          <StyledLink to="/question2">Questão 2</StyledLink>
+          <StyledLink to="/question3">Questão 3</StyledLink>
+          <StyledLink to="/question4">Questão 4</StyledLink>
+          <StyledLink to="/question5">Questão 5</StyledLink>
         </LinksWrapper>
       </Card>
     </Wrapper>

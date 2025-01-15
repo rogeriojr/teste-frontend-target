@@ -22,19 +22,19 @@ const CenteredText = styled.p`
 
 function App() {
   return (
-    <Router>
-        <Header />
-        <CenteredText>Navegue pelas páginas e visualize todo conteúdo!</CenteredText>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/question1" element={<Question1 />} />
-          <Route path="/question2" element={<Question2 />} />
-          <Route path="/question3" element={<Question3 />} />
-          <Route path="/question4" element={<Question4 />} />
-          <Route path="/question5" element={<Question5 />} />
-        </Routes>
-        <Footer />
+    <Router basename="/teste-frontend-target">
+      <Header />
+      <CenteredText>Navegue pelas páginas e visualize todo conteúdo!</CenteredText>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/question1" element={<Question1 />} />
+        <Route path="/question2" element={<Question2 />} />
+        <Route path="/question3" element={<Question3 />} />
+        <Route path="/question4" element={<Question4 />} />
+        <Route path="/question5" element={<Question5 />} />
+      </Routes>
+      <Footer />
     </Router>
   );
 }
