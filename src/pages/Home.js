@@ -55,11 +55,11 @@ const Home = () => {
       </Description>
       <Card title="Navegue pelos Testes">
         <LinksWrapper>
-          <StyledLink to="/question1">Questão 1</StyledLink>
-          <StyledLink to="/question2">Questão 2</StyledLink>
-          <StyledLink to="/question3">Questão 3</StyledLink>
-          <StyledLink to="/question4">Questão 4</StyledLink>
-          <StyledLink to="/question5">Questão 5</StyledLink>
+          <StyledLink to="question1">Questão 1</StyledLink>
+          <StyledLink to="question2">Questão 2</StyledLink>
+          <StyledLink to="question3">Questão 3</StyledLink>
+          <StyledLink to="question4">Questão 4</StyledLink>
+          <StyledLink to="question5">Questão 5</StyledLink>
         </LinksWrapper>
       </Card>
     </Wrapper>

@@ -28,11 +28,11 @@ const Header = () => {
       <h1>Teste Técnico</h1>
       <NavLinks>
         <Link to="/">Home</Link>
-        <Link to="/question1">Questão 1</Link>
-        <Link to="/question2">Questão 2</Link>
-        <Link to="/question3">Questão 3</Link>
-        <Link to="/question4">Questão 4</Link>
-        <Link to="/question5">Questão 5</Link>
+        <Link to="question1">Questão 1</Link>
+        <Link to="question2">Questão 2</Link>
+        <Link to="question3">Questão 3</Link>
+        <Link to="question4">Questão 4</Link>
+        <Link to="question5">Questão 5</Link>
       </NavLinks>
     </Navbar>
   );
