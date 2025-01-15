@@ -16,7 +16,6 @@ function App() {
       <GlobalStyles />
       <Header />
       <Routes>
-        <Route path="/*" element={<Navigate to="/" />} />
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/question1" element={<Question1 />} />
