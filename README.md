@@ -126,7 +126,7 @@ src/
 ---
 
 ## Link de visualização do projeto
-https://rogeriojr.github.io/teste-frontend-target/home
+https://rogeriojr.github.io/teste-frontend-target
 
 ---
 
