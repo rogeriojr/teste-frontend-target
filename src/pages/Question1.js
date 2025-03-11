@@ -18,6 +18,7 @@ const Input = styled.input`
   border-radius: 8px;
   width: 100%;
   max-width: 300px;
+  margin-rigth: 10px;
   font-size: 1rem;
   transition: border-color 0.2s;
 
@@ -30,6 +31,7 @@ const Input = styled.input`
 const Button = styled.button`
   padding: 0.75rem 1.5rem;
   margin: 1rem 0;
+  margin-left: 10px;
   background: #6200ea;
   color: white;
   border: none;
@@ -75,8 +77,14 @@ const Result = styled.div`
   animation: fadeIn 0.3s ease-in;
 
   @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 `;
 
@@ -121,9 +129,15 @@ const Question1 = () => {
       <Card title="Soma de Números Sequenciais">
         <Example>
           <strong>Descrição:</strong>
-          <p>Esta questão calcula a soma de todos os números de 1 até o número que você inserir.</p>
+          <p>
+            Esta questão calcula a soma de todos os números de 1 até o número
+            que você inserir.
+          </p>
           <strong>Exemplo:</strong>
-          <p>Se você inserir <code>5</code>, o cálculo será: <code>1 + 2 + 3 + 4 + 5 = 15</code></p>
+          <p>
+            Se você inserir <code>5</code>, o cálculo será:{" "}
+            <code>1 + 2 + 3 + 4 + 5 = 15</code>
+          </p>
           <strong>Como usar:</strong>
           <ol>
             <li>Digite um número inteiro positivo no campo abaixo</li>
