@@ -94,6 +94,9 @@ const Header = () => {
         <StyledLink to="/" active={isActive("/") || isActive("/home")}>
           Home
         </StyledLink>
+        <StyledLink to="/about" active={isActive("/about")}>
+          Sobre Mim
+        </StyledLink>
         <StyledLink to="/question1" active={isActive("/question1")}>
           Questão 1
         </StyledLink>
