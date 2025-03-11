@@ -7,19 +7,23 @@ Este projeto implementa uma interface web interativa para solucionar problemas d
 
 
 ## Prints das telas
-![image](https://github.com/user-attachments/assets/c8392b3b-7e4a-42db-a74f-5f1e9cac2c93)
+![Home](https://github.com/user-attachments/assets/4d6ba7c7-081a-49a9-ac5b-2b2472401415)
 
 
 
-![image](https://github.com/user-attachments/assets/44bbcb03-a27d-4fb3-9f38-2560af2bae54)
+![Sobre Mim](https://github.com/user-attachments/assets/2ebcf10a-b9a9-4a4f-87e5-954cfcabf415)
 
 
 
-![image](https://github.com/user-attachments/assets/bcaffaf9-b6f0-4f2d-9c11-6f2c0eb11edc)
+![Questão 1](https://github.com/user-attachments/assets/db730c99-be1c-4967-be98-b138b1dad965)
 
 
 
-![image](https://github.com/user-attachments/assets/3036baf8-6db1-4f7d-9ab1-97e07c2e513e)
+![Questão 5](https://github.com/user-attachments/assets/fbc6cade-7f0e-43f3-9208-86639fde025d)
+
+
+
+
 
 
 ## Funcionalidades
